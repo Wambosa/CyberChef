@@ -90,7 +90,19 @@ CyberChef is built to support
 
 ## Node.js support
 
-CyberChef is built to fully support Node.js `v10` and partially supports `v12`. Named imports using a deep import specifier does not work in `v12`. For more information, see the Node API page in the project [wiki pages](https://github.com/gchq/CyberChef/wiki)
+  - fixed crypto-api issue
+  - remove as much ui stuff as possible
+  - 
+
+```
+nvm install 14.19.0
+npm install
+node ./src/node/config/scripts/generateNodeIndex.mjs
+git add src/node/index.mjs -f
+git add src/core/operations/index.mjs -f
+```
+
+
 
 
 ## Contributing
