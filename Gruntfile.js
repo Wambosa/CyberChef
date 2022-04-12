@@ -267,9 +267,7 @@ module.exports = function (grunt) {
                 stdout: false,
             },
             fixCryptoApiImports: {
-                command: [
-                    `echo "badass command, but hey lets just fork instead"`
-                ].join(" "),
+                command: `echo "badass command, but hey lets just fork instead"`,
                 stdout: false
             }
         },
